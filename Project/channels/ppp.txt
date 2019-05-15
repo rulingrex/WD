@@ -1,0 +1,9 @@
+images..                                                       --------------------done
+
+texts decorations                                             --------------------- done
+
+suscrive udaune                                                    ----------------------- done
+
+our partners -- news channels ko pics-- using nested flex box  -------------NOT DONE
+
+in side news,, embeed youtube videos                            -----------done

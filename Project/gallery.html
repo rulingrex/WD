@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Contact Us</title>
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600i,700,800" rel="stylesheet">
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="styles/style2.css">
+
+
+	</head>
+	<body>
+		<header>
+		  	<!-- <div id="container"> -->
+			<div class="logo">
+				<img src="images/logo.png" width="80" alt="">
+			</div>
+			<div class="title">
+<h1 class="text-center font-weight-bold"><a  href="index.html" style="text-decoration: none; color: #58c1de;font-family:  Comic Sans MS">Current Newspaper</a></h1>			</div>
+			<div class="todayDate">
+				<span class="font-weight-bold font-italic" id="todayDate"></span>
+			</div>
+			<!-- </div> -->
+
+		</header>
+
+		<section> <h6>&nbsp;</h6>
+			<aside>
+				<div class="menu">
+				    <a href="index.html">Home</a>
+				    <a href="news.html">News</a>
+				    <a href="gallery.html">Gallery</a>
+				    <a href="contact.html">Contact</a>
+				    <a href="partner.html">Our Partners</a>
+				</div>
+			</aside>
+
+			<div class="main">
+				<div class="gallery">
+					<figure class="gallery__item gallery__item--1">
+					    <img src="images/no-image.jpg" class="gallery__img" alt="Image 1">
+					</figure>
+					
+					<figure class="gallery__item gallery__item--2">
+					    <img src="images/tootle.png" class="gallery__img" alt="Image 2">
+					</figure>
+					<figure class="gallery__item gallery__item--3">
+					    <img src="images/news_details_3.jpg" class="gallery__img" alt="Image 3">
+					</figure>
+					<figure class="gallery__item gallery__item--4">
+					    <img src="images/news_details_4.jpg" class="gallery__img" alt="Image 4">
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer-content">
+				Current Newspaper <i class="fa fa-copyright"></i><span id="currentYear"></span>
+				<p>Address: Mid Baneshwor, Kathmandu</p>
+            <p>Email: Info@currentnewspaper.com.np</p>
+			</div> 
+		</footer>
+
+		<script src="scripts/script.js"></script>
+
+		<script>
+		    // Validate only number in contact number text area.
+		    function isNumber(evt) {
+		        var iKeyCode = (evt.which) ? evt.which : evt.keyCode
+		        if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57))
+		            return false;
+
+		        return true;
+		    }    
+
+		    function formSubmission(){
+		    	document.getElementById("contactForm").submit();
+		    }
+		</script>
+	</body>
+</html>
